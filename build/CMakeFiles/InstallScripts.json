@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/cmake_install.cmake",
+		"/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib/cmake_install.cmake",
+		"/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu/cmake_install.cmake",
+		"/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
