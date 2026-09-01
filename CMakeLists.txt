@@ -1,12 +1,16 @@
-cmake_minimum_required(VERSION 3.16)
+﻿cmake_minimum_required(VERSION 3.16)
 
-project(gbemu C)
+project(gbemu LANGUAGES C CXX)
 
 # -----------------------------------------------------------------------------
 # Build configuration
 # -----------------------------------------------------------------------------
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Default build type (if not specified)
 if(NOT CMAKE_BUILD_TYPE)
@@ -45,58 +49,79 @@ endif()
 # SDL2 setup
 # -----------------------------------------------------------------------------
 if(WIN32)
+
     # Windows manual setup
     set(SDL2_DIR "${PROJECT_SOURCE_DIR}/../windows_deps/sdl2")
+
     set(SDL2_INCLUDE_DIRS
         "${SDL2_DIR}/include"
         "${SDL2_DIR}/include/SDL2"
     )
 
     if(CMAKE_SIZEOF_VOID_P EQUAL 8)
+
         set(SDL2_LIBRARIES
             "${SDL2_DIR}/lib/x64/SDL2.lib"
             "${SDL2_DIR}/lib/x64/SDL2main.lib"
         )
+
     else()
+
         set(SDL2_LIBRARIES
             "${SDL2_DIR}/lib/x86/SDL2.lib"
             "${SDL2_DIR}/lib/x86/SDL2main.lib"
         )
+
     endif()
+
 
     # SDL2_ttf
     set(SDL2_TTF_DIR "${PROJECT_SOURCE_DIR}/../windows_deps/sdl2_ttf")
-    set(SDL2_TTF_INCLUDE_DIRS "${SDL2_TTF_DIR}/include")
+
+    set(SDL2_TTF_INCLUDE_DIRS
+        "${SDL2_TTF_DIR}/include"
+    )
 
     if(CMAKE_SIZEOF_VOID_P EQUAL 8)
+
         set(SDL2_TTF_LIBRARIES
             "${SDL2_TTF_DIR}/lib/x64/SDL2_ttf.lib"
         )
+
     else()
+
         set(SDL2_TTF_LIBRARIES
             "${SDL2_TTF_DIR}/lib/x86/SDL2_ttf.lib"
         )
+
     endif()
 
 else()
-    # Linux / Arch (your case)
-    list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2")
+
+    # Linux / Arch
+    list(APPEND CMAKE_MODULE_PATH
+        "${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2"
+    )
 
     find_package(SDL2 REQUIRED)
     find_package(SDL2_ttf REQUIRED)
+
 endif()
 
 # -----------------------------------------------------------------------------
 # Generate config.h
 # -----------------------------------------------------------------------------
 configure_file(
-    ${CMAKE_CURRENT_SOURCE_DIR}/cmake/config.h.in
-    ${CMAKE_CURRENT_BINARY_DIR}/config.h
+    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/config.h.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/config.h"
 )
 
 # Make config.h available
 add_compile_definitions(HAVE_CONFIG_H)
-include_directories(${CMAKE_CURRENT_BINARY_DIR})
+
+include_directories(
+    "${CMAKE_CURRENT_BINARY_DIR}"
+)
 
 # -----------------------------------------------------------------------------
 # Subdirectories
@@ -109,4 +134,8 @@ add_subdirectory(tests)
 # Testing
 # -----------------------------------------------------------------------------
 enable_testing()
-add_test(NAME check_gbe COMMAND check_gbe)
+
+add_test(
+    NAME check_gbe
+    COMMAND check_gbe
+)

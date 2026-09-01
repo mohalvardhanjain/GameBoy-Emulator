@@ -2,6 +2,7 @@ lib/CMakeFiles/emu.dir/cpu.c.o: \
  /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.c \
  /usr/include/stdc-predef.h \
  /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/cpu.h \
+ /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/instructions.h \
  /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -37,4 +38,7 @@ lib/CMakeFiles/emu.dir/cpu.c.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h
+ /usr/include/bits/stdlib-float.h \
+ /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/bus.h \
+ /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/emu.h \
+ /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/include/interrupts.h
