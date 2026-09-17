@@ -186,29 +186,29 @@ gbemu/fast:
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/build
 .PHONY : gbemu/fast
 
-main.o: main.c.o
+main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.o
-.PHONY : main.c.o
+main.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:

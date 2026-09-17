@@ -29,12 +29,25 @@ lcd_context* lcd_get_context() {
     return &ctx;
 }
 
-uint8_t lcd_read(uint16_t address) {
-    uint8_t offset = (address - 0xFF40);
-    uint8_t* p = (uint8_t* )&ctx;
 
-    return p[offset];
+uint8_t lcd_read(uint16_t address) {
+    switch(address) {
+        case 0xFF40: return ctx.lcdc;
+        case 0xFF41: return ctx.lcds;
+        case 0xFF42: return ctx.scroll_y;
+        case 0xFF43: return ctx.scroll_x;
+        case 0xFF44: return ctx.ly;
+        case 0xFF45: return ctx.ly_compare;
+        case 0xFF47: return ctx.bg_palette;
+        case 0xFF48: return ctx.obj_palette[0];
+        case 0xFF49: return ctx.obj_palette[1];
+        case 0xFF4A: return ctx.win_y;
+        case 0xFF4B: return ctx.win_x;
+    }
+
+    return 0xFF;
 }
+
 
 void update_palette(uint8_t palette_data, uint8_t pal){
     uint32_t *p_colors = ctx.bg_colors;
@@ -55,21 +68,61 @@ void update_palette(uint8_t palette_data, uint8_t pal){
 }
 
 void lcd_write(uint16_t address, uint8_t value) {
-    uint8_t offset = (address - 0xFF40);
-    uint8_t* p = (uint8_t* )&ctx;
+    switch (address) {
+        case 0xFF40: // LCDC
+            ctx.lcdc = value;
+            break;
 
-    p[offset] = value;
+        case 0xFF41: // STAT
+            // Only bits 3-6 are writable on DMG.
+            ctx.lcds = (ctx.lcds & 0x07) | (value & 0x78);
+            break;
 
-    if(offset == 6) {
-        //0xFF46 = DMA
-        dma_start(value);
-    }
+        case 0xFF42: // SCY
+            ctx.scroll_y = value;
+            break;
 
-    if(address == 0xFF47){
-        update_palette(value, 0);
-    } else if(address == 0xFF48) {
-        update_palette(value & 0b11111100, 1);
-    } else if(address == 0xFF49) {
-        update_palette(value & 0b11111100, 1);
+        case 0xFF43: // SCX
+            ctx.scroll_x = value;
+            break;
+
+        case 0xFF44: // LY
+            // LY is read-only; writes reset it to 0.
+            ctx.ly = 0;
+            break;
+
+        case 0xFF45: // LYC
+            ctx.ly_compare = value;
+            break;
+
+        case 0xFF46: // DMA
+            dma_start(value);
+            break;
+
+        case 0xFF47: // BGP
+            ctx.bg_palette = value;
+            update_palette(value, 0);
+            break;
+
+        case 0xFF48: // OBP0
+            ctx.obj_palette[0] = value;
+            update_palette(value & 0xFC, 1);
+            break;
+
+        case 0xFF49: // OBP1
+            ctx.obj_palette[1] = value;
+            update_palette(value & 0xFC, 2);
+            break;
+
+        case 0xFF4A: // WY
+            ctx.win_y = value;
+            break;
+
+        case 0xFF4B: // WX
+            ctx.win_x = value;
+            break;
+
+        default:
+            break;
     }
 }

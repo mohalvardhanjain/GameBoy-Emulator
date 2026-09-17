@@ -72,28 +72,28 @@ include gbemu/CMakeFiles/gbemu.dir/flags.make
 gbemu/CMakeFiles/gbemu.dir/codegen:
 .PHONY : gbemu/CMakeFiles/gbemu.dir/codegen
 
-gbemu/CMakeFiles/gbemu.dir/main.c.o: gbemu/CMakeFiles/gbemu.dir/flags.make
-gbemu/CMakeFiles/gbemu.dir/main.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.c
-gbemu/CMakeFiles/gbemu.dir/main.c.o: gbemu/CMakeFiles/gbemu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object gbemu/CMakeFiles/gbemu.dir/main.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gbemu/CMakeFiles/gbemu.dir/main.c.o -MF CMakeFiles/gbemu.dir/main.c.o.d -o CMakeFiles/gbemu.dir/main.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.c
+gbemu/CMakeFiles/gbemu.dir/main.cpp.o: gbemu/CMakeFiles/gbemu.dir/flags.make
+gbemu/CMakeFiles/gbemu.dir/main.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.cpp
+gbemu/CMakeFiles/gbemu.dir/main.cpp.o: gbemu/CMakeFiles/gbemu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gbemu/CMakeFiles/gbemu.dir/main.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gbemu/CMakeFiles/gbemu.dir/main.cpp.o -MF CMakeFiles/gbemu.dir/main.cpp.o.d -o CMakeFiles/gbemu.dir/main.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.cpp
 
-gbemu/CMakeFiles/gbemu.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gbemu.dir/main.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.c > CMakeFiles/gbemu.dir/main.c.i
+gbemu/CMakeFiles/gbemu.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gbemu.dir/main.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.cpp > CMakeFiles/gbemu.dir/main.cpp.i
 
-gbemu/CMakeFiles/gbemu.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gbemu.dir/main.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.c -o CMakeFiles/gbemu.dir/main.c.s
+gbemu/CMakeFiles/gbemu.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gbemu.dir/main.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.cpp -o CMakeFiles/gbemu.dir/main.cpp.s
 
 # Object files for target gbemu
 gbemu_OBJECTS = \
-"CMakeFiles/gbemu.dir/main.c.o"
+"CMakeFiles/gbemu.dir/main.cpp.o"
 
 # External object files for target gbemu
 gbemu_EXTERNAL_OBJECTS =
 
-gbemu/gbemu: gbemu/CMakeFiles/gbemu.dir/main.c.o
+gbemu/gbemu: gbemu/CMakeFiles/gbemu.dir/main.cpp.o
 gbemu/gbemu: gbemu/CMakeFiles/gbemu.dir/build.make
 gbemu/gbemu: gbemu/CMakeFiles/gbemu.dir/compiler_depend.ts
 gbemu/gbemu: lib/libemu.a
@@ -101,7 +101,7 @@ gbemu/gbemu: /usr/lib/libSDL2main.a
 gbemu/gbemu: /usr/lib/libSDL2.so
 gbemu/gbemu: /usr/lib/libSDL2_ttf.so
 gbemu/gbemu: gbemu/CMakeFiles/gbemu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gbemu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gbemu"
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gbemu.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu && /usr/bin/cmake -E copy /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/NotoSansMono-Medium.ttf /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/gbemu
 

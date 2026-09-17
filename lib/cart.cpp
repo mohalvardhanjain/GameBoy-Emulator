@@ -2,20 +2,52 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstring>
 #include <cstdio>
 #include <cstdint>
 
 #include <cart.h>
 
 class cart_context {
-public:
-    char filename[1024];
-    uint32_t rom_size;
-    std::vector<uint8_t> rom_data;
-    rom_header* header;
+    public:
+        char filename[1024];
+        uint32_t rom_size;
+        std::vector<uint8_t> rom_data;
+        rom_header* header;
+
+        //mbc1 related data
+        bool ram_enabled;
+        bool ram_banking;
+
+        uint8_t *rom_bank_x;
+        uint8_t banking_mode;
+
+        uint8_t rom_bank_value;
+        uint8_t ram_bank_value;
+
+        uint8_t *ram_bank; //current selected ram bank
+        uint8_t *ram_banks[16]; //all ram banks
+
+        //for battery
+        bool battery; //has battery
+        bool need_save; //should save battery backup.
 };
 
 static cart_context ctx{};
+
+
+bool cart_need_save() {/////
+    return ctx.need_save;
+}
+
+bool cart_mbc1() {////////
+    return BETWEEN(ctx.header->type, 1, 3);
+}
+
+bool cart_battery() {///////
+    //mbc1 only for now...
+    return ctx.header->type == 3;
+}
 
 static const char *ROM_TYPES[] = {
     "ROM ONLY",
@@ -130,6 +162,22 @@ const char *cart_type_name() {
     return "UNKNOWN";
 }
 
+void cart_setup_banking() {//////////
+    for (int i=0; i<16; i++) {
+        ctx.ram_banks[i] = 0;
+
+        if ((ctx.header->ram_size == 2 && i == 0) ||
+            (ctx.header->ram_size == 3 && i < 4) || 
+            (ctx.header->ram_size == 4 && i < 16) || 
+            (ctx.header->ram_size == 5 && i < 8)) {
+            ctx.ram_banks[i] = new uint8_t[0x2000]{};
+        }
+    }
+
+    ctx.ram_bank = ctx.ram_banks[0];
+    ctx.rom_bank_x = ctx.rom_data.data() + 0x4000; //rom bank 1
+}
+
 bool cart_load(const char* filename)
 {
     std::snprintf(ctx.filename, sizeof(ctx.filename), "%s", filename);
@@ -185,6 +233,9 @@ bool cart_load(const char* filename)
 
     std::cout << "\tROM Vers : " << std::hex << static_cast<int>(ctx.header->version) << '\n';
 
+
+    cart_setup_banking();///////
+
     uint16_t x = 0;
 
     for (uint16_t i = 0x0134; i <= 0x014C; i++) {
@@ -193,13 +244,151 @@ bool cart_load(const char* filename)
 
     std::cout << "\tChecksum : " << std::hex << static_cast<int>(ctx.header->checksum) << " (" << ((x & 0xFF) ? "PASSED" : "FAILED") << ")\n";
 
+
+    if(ctx.battery) {/////////
+        cart_battery_load();
+    }
+
     return true;
 }
 
 
-uint8_t cart_read(uint16_t address){
-    return ctx.rom_data[address];
+void cart_battery_load() {
+    if (!ctx.ram_bank) {
+        return;
+    }
+
+    std::string filename = std::string(ctx.filename) + ".battery";
+
+    std::ifstream file(filename, std::ios::binary);
+
+    if (!file) {
+        std::cerr << "FAILED TO OPEN: " << filename << '\n';
+        return;
+    }
+
+    file.read(
+        reinterpret_cast<char*>(ctx.ram_bank),
+        0x2000
+    );
+
+    if (!file) {
+        std::cerr << "FAILED TO READ BATTERY: " << filename << '\n';
+        return;
+    }
+
+    file.close();
 }
-void cart_write(uint16_t address, uint8_t value){
-    
-}   
+
+
+void cart_battery_save() {
+    if (!ctx.ram_bank) {
+        return;
+    }
+
+    std::string filename = std::string(ctx.filename) + ".battery";
+
+    std::ofstream file(filename, std::ios::binary);
+
+    if (!file) {
+        std::cerr << "FAILED TO OPEN: " << filename << '\n';
+        return;
+    }
+
+    file.write(
+        reinterpret_cast<const char*>(ctx.ram_bank),
+        0x2000
+    );
+
+    if (!file) {
+        std::cerr << "FAILED TO WRITE BATTERY: " << filename << '\n';
+        return;
+    }
+
+    file.close();
+}
+
+uint8_t cart_read(uint16_t address){
+    if (!cart_mbc1() || address < 0x4000) {
+        return ctx.rom_data[address];
+    }
+
+    if ((address & 0xE000) == 0xA000) {
+        if (!ctx.ram_enabled) {
+            return 0xFF;
+        }
+
+        if (!ctx.ram_bank) {
+            return 0xFF;
+        }
+
+        return ctx.ram_bank[address - 0xA000];
+    }
+
+    return ctx.rom_bank_x[address - 0x4000];
+}
+void cart_write(uint16_t address, uint8_t value) {
+    if (!cart_mbc1()) {
+        return;
+    }
+
+    if (address < 0x2000) {
+        ctx.ram_enabled = ((value & 0xF) == 0xA);
+    }
+
+    if ((address & 0xE000) == 0x2000) {
+        //rom bank number
+        if (value == 0) {
+            value = 1;
+        }
+
+        value &= 0b11111;
+
+        ctx.rom_bank_value = value;
+        ctx.rom_bank_x = ctx.rom_data.data() + (0x4000 * ctx.rom_bank_value);
+    }
+
+    if ((address & 0xE000) == 0x4000) {
+        //ram bank number
+        ctx.ram_bank_value = value & 0b11;
+
+        if (ctx.ram_banking) {
+            if (cart_need_save()) {
+                cart_battery_save();
+            }
+
+            ctx.ram_bank = ctx.ram_banks[ctx.ram_bank_value];
+        }
+    }
+
+    if ((address & 0xE000) == 0x6000) {
+        //banking mode select
+        ctx.banking_mode = value & 1;
+
+        ctx.ram_banking = ctx.banking_mode;
+
+        if (ctx.ram_banking) {
+            if (cart_need_save()) {
+                cart_battery_save();
+            }
+            
+            ctx.ram_bank = ctx.ram_banks[ctx.ram_bank_value];
+        }
+    }
+
+    if ((address & 0xE000) == 0xA000) {
+        if (!ctx.ram_enabled) {
+            return;
+        }
+
+        if (!ctx.ram_bank) {
+            return;
+        }
+
+        ctx.ram_bank[address - 0xA000] = value;
+
+        if (ctx.battery) {
+            ctx.need_save = true;
+        }
+    }
+}

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.c" "gbemu/CMakeFiles/gbemu.dir/main.c.o" "gcc" "gbemu/CMakeFiles/gbemu.dir/main.c.o.d"
+  "/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/gbemu/main.cpp" "gbemu/CMakeFiles/gbemu.dir/main.cpp.o" "gcc" "gbemu/CMakeFiles/gbemu.dir/main.cpp.o.d"
   "" "gbemu/gbemu" "gcc" "gbemu/CMakeFiles/gbemu.dir/link.d"
   )
 

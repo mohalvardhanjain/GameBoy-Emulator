@@ -2,16 +2,22 @@ gbemu: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/gbemu.dir/main.c.o \
+  CMakeFiles/gbemu.dir/main.cpp.o \
   ../lib/libemu.a \
   /usr/lib/libSDL2main.a \
   /usr/lib/libSDL2.so \
   /usr/lib/libSDL2_ttf.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libc.so \
@@ -19,11 +25,11 @@ gbemu: \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
   /usr/lib/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o \
@@ -34,7 +40,6 @@ gbemu: \
   /usr/lib/libbz2.so.1.0 \
   /usr/lib/libpng16.so.16 \
   /usr/lib/libbrotlidec.so.1 \
-  /usr/lib/libm.so.6 \
   /usr/lib/libglib-2.0.so.0 \
   /usr/lib/libgraphite2.so.3 \
   /usr/lib/libbrotlicommon.so.1 \
@@ -46,7 +51,7 @@ gbemu: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/gbemu.dir/main.c.o:
+CMakeFiles/gbemu.dir/main.cpp.o:
 
 ../lib/libemu.a:
 
@@ -56,7 +61,17 @@ CMakeFiles/gbemu.dir/main.c.o:
 
 /usr/lib/libSDL2_ttf.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/libm.so.6:
+
+/usr/lib/libmvec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
@@ -65,6 +80,8 @@ CMakeFiles/gbemu.dir/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
@@ -80,8 +97,6 @@ CMakeFiles/gbemu.dir/main.c.o:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
@@ -89,6 +104,8 @@ CMakeFiles/gbemu.dir/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
@@ -109,8 +126,6 @@ CMakeFiles/gbemu.dir/main.c.o:
 /usr/lib/libpng16.so.16:
 
 /usr/lib/libbrotlidec.so.1:
-
-/usr/lib/libm.so.6:
 
 /usr/lib/libglib-2.0.so.0:
 

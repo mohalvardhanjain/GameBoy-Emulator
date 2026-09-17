@@ -186,509 +186,509 @@ emu/fast:
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/build
 .PHONY : emu/fast
 
-bus.o: bus.c.o
+bus.o: bus.cpp.o
 .PHONY : bus.o
 
 # target to build an object file
-bus.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.o
-.PHONY : bus.c.o
+bus.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.cpp.o
+.PHONY : bus.cpp.o
 
-bus.i: bus.c.i
+bus.i: bus.cpp.i
 .PHONY : bus.i
 
 # target to preprocess a source file
-bus.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.i
-.PHONY : bus.c.i
+bus.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.cpp.i
+.PHONY : bus.cpp.i
 
-bus.s: bus.c.s
+bus.s: bus.cpp.s
 .PHONY : bus.s
 
 # target to generate assembly for a file
-bus.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.s
-.PHONY : bus.c.s
+bus.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.cpp.s
+.PHONY : bus.cpp.s
 
-cart.o: cart.c.o
+cart.o: cart.cpp.o
 .PHONY : cart.o
 
 # target to build an object file
-cart.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.o
-.PHONY : cart.c.o
+cart.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.cpp.o
+.PHONY : cart.cpp.o
 
-cart.i: cart.c.i
+cart.i: cart.cpp.i
 .PHONY : cart.i
 
 # target to preprocess a source file
-cart.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.i
-.PHONY : cart.c.i
+cart.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.cpp.i
+.PHONY : cart.cpp.i
 
-cart.s: cart.c.s
+cart.s: cart.cpp.s
 .PHONY : cart.s
 
 # target to generate assembly for a file
-cart.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.s
-.PHONY : cart.c.s
+cart.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.cpp.s
+.PHONY : cart.cpp.s
 
-cpu.o: cpu.c.o
+cpu.o: cpu.cpp.o
 .PHONY : cpu.o
 
 # target to build an object file
-cpu.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.o
-.PHONY : cpu.c.o
+cpu.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.cpp.o
+.PHONY : cpu.cpp.o
 
-cpu.i: cpu.c.i
+cpu.i: cpu.cpp.i
 .PHONY : cpu.i
 
 # target to preprocess a source file
-cpu.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.i
-.PHONY : cpu.c.i
+cpu.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.cpp.i
+.PHONY : cpu.cpp.i
 
-cpu.s: cpu.c.s
+cpu.s: cpu.cpp.s
 .PHONY : cpu.s
 
 # target to generate assembly for a file
-cpu.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.s
-.PHONY : cpu.c.s
+cpu.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.cpp.s
+.PHONY : cpu.cpp.s
 
-cpu_fetch.o: cpu_fetch.c.o
+cpu_fetch.o: cpu_fetch.cpp.o
 .PHONY : cpu_fetch.o
 
 # target to build an object file
-cpu_fetch.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.c.o
-.PHONY : cpu_fetch.c.o
+cpu_fetch.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o
+.PHONY : cpu_fetch.cpp.o
 
-cpu_fetch.i: cpu_fetch.c.i
+cpu_fetch.i: cpu_fetch.cpp.i
 .PHONY : cpu_fetch.i
 
 # target to preprocess a source file
-cpu_fetch.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.c.i
-.PHONY : cpu_fetch.c.i
+cpu_fetch.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.cpp.i
+.PHONY : cpu_fetch.cpp.i
 
-cpu_fetch.s: cpu_fetch.c.s
+cpu_fetch.s: cpu_fetch.cpp.s
 .PHONY : cpu_fetch.s
 
 # target to generate assembly for a file
-cpu_fetch.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.c.s
-.PHONY : cpu_fetch.c.s
+cpu_fetch.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_fetch.cpp.s
+.PHONY : cpu_fetch.cpp.s
 
-cpu_proc.o: cpu_proc.c.o
+cpu_proc.o: cpu_proc.cpp.o
 .PHONY : cpu_proc.o
 
 # target to build an object file
-cpu_proc.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.c.o
-.PHONY : cpu_proc.c.o
+cpu_proc.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.cpp.o
+.PHONY : cpu_proc.cpp.o
 
-cpu_proc.i: cpu_proc.c.i
+cpu_proc.i: cpu_proc.cpp.i
 .PHONY : cpu_proc.i
 
 # target to preprocess a source file
-cpu_proc.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.c.i
-.PHONY : cpu_proc.c.i
+cpu_proc.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.cpp.i
+.PHONY : cpu_proc.cpp.i
 
-cpu_proc.s: cpu_proc.c.s
+cpu_proc.s: cpu_proc.cpp.s
 .PHONY : cpu_proc.s
 
 # target to generate assembly for a file
-cpu_proc.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.c.s
-.PHONY : cpu_proc.c.s
+cpu_proc.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_proc.cpp.s
+.PHONY : cpu_proc.cpp.s
 
-cpu_util.o: cpu_util.c.o
+cpu_util.o: cpu_util.cpp.o
 .PHONY : cpu_util.o
 
 # target to build an object file
-cpu_util.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.o
-.PHONY : cpu_util.c.o
+cpu_util.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.cpp.o
+.PHONY : cpu_util.cpp.o
 
-cpu_util.i: cpu_util.c.i
+cpu_util.i: cpu_util.cpp.i
 .PHONY : cpu_util.i
 
 # target to preprocess a source file
-cpu_util.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.i
-.PHONY : cpu_util.c.i
+cpu_util.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.cpp.i
+.PHONY : cpu_util.cpp.i
 
-cpu_util.s: cpu_util.c.s
+cpu_util.s: cpu_util.cpp.s
 .PHONY : cpu_util.s
 
 # target to generate assembly for a file
-cpu_util.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.s
-.PHONY : cpu_util.c.s
+cpu_util.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.cpp.s
+.PHONY : cpu_util.cpp.s
 
-dbg.o: dbg.c.o
+dbg.o: dbg.cpp.o
 .PHONY : dbg.o
 
 # target to build an object file
-dbg.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.c.o
-.PHONY : dbg.c.o
+dbg.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.cpp.o
+.PHONY : dbg.cpp.o
 
-dbg.i: dbg.c.i
+dbg.i: dbg.cpp.i
 .PHONY : dbg.i
 
 # target to preprocess a source file
-dbg.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.c.i
-.PHONY : dbg.c.i
+dbg.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.cpp.i
+.PHONY : dbg.cpp.i
 
-dbg.s: dbg.c.s
+dbg.s: dbg.cpp.s
 .PHONY : dbg.s
 
 # target to generate assembly for a file
-dbg.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.c.s
-.PHONY : dbg.c.s
+dbg.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dbg.cpp.s
+.PHONY : dbg.cpp.s
 
-dma.o: dma.c.o
+dma.o: dma.cpp.o
 .PHONY : dma.o
 
 # target to build an object file
-dma.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.c.o
-.PHONY : dma.c.o
+dma.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.cpp.o
+.PHONY : dma.cpp.o
 
-dma.i: dma.c.i
+dma.i: dma.cpp.i
 .PHONY : dma.i
 
 # target to preprocess a source file
-dma.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.c.i
-.PHONY : dma.c.i
+dma.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.cpp.i
+.PHONY : dma.cpp.i
 
-dma.s: dma.c.s
+dma.s: dma.cpp.s
 .PHONY : dma.s
 
 # target to generate assembly for a file
-dma.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.c.s
-.PHONY : dma.c.s
+dma.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/dma.cpp.s
+.PHONY : dma.cpp.s
 
-emu.o: emu.c.o
+emu.o: emu.cpp.o
 .PHONY : emu.o
 
 # target to build an object file
-emu.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.o
-.PHONY : emu.c.o
+emu.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.cpp.o
+.PHONY : emu.cpp.o
 
-emu.i: emu.c.i
+emu.i: emu.cpp.i
 .PHONY : emu.i
 
 # target to preprocess a source file
-emu.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.i
-.PHONY : emu.c.i
+emu.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.cpp.i
+.PHONY : emu.cpp.i
 
-emu.s: emu.c.s
+emu.s: emu.cpp.s
 .PHONY : emu.s
 
 # target to generate assembly for a file
-emu.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.s
-.PHONY : emu.c.s
+emu.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.cpp.s
+.PHONY : emu.cpp.s
 
-gamepad.o: gamepad.c.o
+gamepad.o: gamepad.cpp.o
 .PHONY : gamepad.o
 
 # target to build an object file
-gamepad.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.c.o
-.PHONY : gamepad.c.o
+gamepad.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.cpp.o
+.PHONY : gamepad.cpp.o
 
-gamepad.i: gamepad.c.i
+gamepad.i: gamepad.cpp.i
 .PHONY : gamepad.i
 
 # target to preprocess a source file
-gamepad.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.c.i
-.PHONY : gamepad.c.i
+gamepad.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.cpp.i
+.PHONY : gamepad.cpp.i
 
-gamepad.s: gamepad.c.s
+gamepad.s: gamepad.cpp.s
 .PHONY : gamepad.s
 
 # target to generate assembly for a file
-gamepad.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.c.s
-.PHONY : gamepad.c.s
+gamepad.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/gamepad.cpp.s
+.PHONY : gamepad.cpp.s
 
-instructions.o: instructions.c.o
+instructions.o: instructions.cpp.o
 .PHONY : instructions.o
 
 # target to build an object file
-instructions.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.o
-.PHONY : instructions.c.o
+instructions.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.cpp.o
+.PHONY : instructions.cpp.o
 
-instructions.i: instructions.c.i
+instructions.i: instructions.cpp.i
 .PHONY : instructions.i
 
 # target to preprocess a source file
-instructions.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.i
-.PHONY : instructions.c.i
+instructions.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.cpp.i
+.PHONY : instructions.cpp.i
 
-instructions.s: instructions.c.s
+instructions.s: instructions.cpp.s
 .PHONY : instructions.s
 
 # target to generate assembly for a file
-instructions.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.s
-.PHONY : instructions.c.s
+instructions.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.cpp.s
+.PHONY : instructions.cpp.s
 
-interrupts.o: interrupts.c.o
+interrupts.o: interrupts.cpp.o
 .PHONY : interrupts.o
 
 # target to build an object file
-interrupts.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.c.o
-.PHONY : interrupts.c.o
+interrupts.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.cpp.o
+.PHONY : interrupts.cpp.o
 
-interrupts.i: interrupts.c.i
+interrupts.i: interrupts.cpp.i
 .PHONY : interrupts.i
 
 # target to preprocess a source file
-interrupts.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.c.i
-.PHONY : interrupts.c.i
+interrupts.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.cpp.i
+.PHONY : interrupts.cpp.i
 
-interrupts.s: interrupts.c.s
+interrupts.s: interrupts.cpp.s
 .PHONY : interrupts.s
 
 # target to generate assembly for a file
-interrupts.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.c.s
-.PHONY : interrupts.c.s
+interrupts.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/interrupts.cpp.s
+.PHONY : interrupts.cpp.s
 
-io.o: io.c.o
+io.o: io.cpp.o
 .PHONY : io.o
 
 # target to build an object file
-io.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.c.o
-.PHONY : io.c.o
+io.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.cpp.o
+.PHONY : io.cpp.o
 
-io.i: io.c.i
+io.i: io.cpp.i
 .PHONY : io.i
 
 # target to preprocess a source file
-io.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.c.i
-.PHONY : io.c.i
+io.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.cpp.i
+.PHONY : io.cpp.i
 
-io.s: io.c.s
+io.s: io.cpp.s
 .PHONY : io.s
 
 # target to generate assembly for a file
-io.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.c.s
-.PHONY : io.c.s
+io.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/io.cpp.s
+.PHONY : io.cpp.s
 
-lcd.o: lcd.c.o
+lcd.o: lcd.cpp.o
 .PHONY : lcd.o
 
 # target to build an object file
-lcd.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.c.o
-.PHONY : lcd.c.o
+lcd.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.cpp.o
+.PHONY : lcd.cpp.o
 
-lcd.i: lcd.c.i
+lcd.i: lcd.cpp.i
 .PHONY : lcd.i
 
 # target to preprocess a source file
-lcd.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.c.i
-.PHONY : lcd.c.i
+lcd.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.cpp.i
+.PHONY : lcd.cpp.i
 
-lcd.s: lcd.c.s
+lcd.s: lcd.cpp.s
 .PHONY : lcd.s
 
 # target to generate assembly for a file
-lcd.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.c.s
-.PHONY : lcd.c.s
+lcd.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/lcd.cpp.s
+.PHONY : lcd.cpp.s
 
-ppu.o: ppu.c.o
+ppu.o: ppu.cpp.o
 .PHONY : ppu.o
 
 # target to build an object file
-ppu.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.o
-.PHONY : ppu.c.o
+ppu.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.cpp.o
+.PHONY : ppu.cpp.o
 
-ppu.i: ppu.c.i
+ppu.i: ppu.cpp.i
 .PHONY : ppu.i
 
 # target to preprocess a source file
-ppu.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.i
-.PHONY : ppu.c.i
+ppu.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.cpp.i
+.PHONY : ppu.cpp.i
 
-ppu.s: ppu.c.s
+ppu.s: ppu.cpp.s
 .PHONY : ppu.s
 
 # target to generate assembly for a file
-ppu.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.s
-.PHONY : ppu.c.s
+ppu.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.cpp.s
+.PHONY : ppu.cpp.s
 
-ppu_pipeline.o: ppu_pipeline.c.o
-.PHONY : ppu_pipeline.o
+ppu_pipline.o: ppu_pipline.cpp.o
+.PHONY : ppu_pipline.o
 
 # target to build an object file
-ppu_pipeline.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipeline.c.o
-.PHONY : ppu_pipeline.c.o
+ppu_pipline.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o
+.PHONY : ppu_pipline.cpp.o
 
-ppu_pipeline.i: ppu_pipeline.c.i
-.PHONY : ppu_pipeline.i
+ppu_pipline.i: ppu_pipline.cpp.i
+.PHONY : ppu_pipline.i
 
 # target to preprocess a source file
-ppu_pipeline.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipeline.c.i
-.PHONY : ppu_pipeline.c.i
+ppu_pipline.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipline.cpp.i
+.PHONY : ppu_pipline.cpp.i
 
-ppu_pipeline.s: ppu_pipeline.c.s
-.PHONY : ppu_pipeline.s
+ppu_pipline.s: ppu_pipline.cpp.s
+.PHONY : ppu_pipline.s
 
 # target to generate assembly for a file
-ppu_pipeline.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipeline.c.s
-.PHONY : ppu_pipeline.c.s
+ppu_pipline.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_pipline.cpp.s
+.PHONY : ppu_pipline.cpp.s
 
-ppu_sm.o: ppu_sm.c.o
+ppu_sm.o: ppu_sm.cpp.o
 .PHONY : ppu_sm.o
 
 # target to build an object file
-ppu_sm.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.c.o
-.PHONY : ppu_sm.c.o
+ppu_sm.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.cpp.o
+.PHONY : ppu_sm.cpp.o
 
-ppu_sm.i: ppu_sm.c.i
+ppu_sm.i: ppu_sm.cpp.i
 .PHONY : ppu_sm.i
 
 # target to preprocess a source file
-ppu_sm.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.c.i
-.PHONY : ppu_sm.c.i
+ppu_sm.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.cpp.i
+.PHONY : ppu_sm.cpp.i
 
-ppu_sm.s: ppu_sm.c.s
+ppu_sm.s: ppu_sm.cpp.s
 .PHONY : ppu_sm.s
 
 # target to generate assembly for a file
-ppu_sm.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.c.s
-.PHONY : ppu_sm.c.s
+ppu_sm.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu_sm.cpp.s
+.PHONY : ppu_sm.cpp.s
 
-ram.o: ram.c.o
+ram.o: ram.cpp.o
 .PHONY : ram.o
 
 # target to build an object file
-ram.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.c.o
-.PHONY : ram.c.o
+ram.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.cpp.o
+.PHONY : ram.cpp.o
 
-ram.i: ram.c.i
+ram.i: ram.cpp.i
 .PHONY : ram.i
 
 # target to preprocess a source file
-ram.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.c.i
-.PHONY : ram.c.i
+ram.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.cpp.i
+.PHONY : ram.cpp.i
 
-ram.s: ram.c.s
+ram.s: ram.cpp.s
 .PHONY : ram.s
 
 # target to generate assembly for a file
-ram.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.c.s
-.PHONY : ram.c.s
+ram.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ram.cpp.s
+.PHONY : ram.cpp.s
 
-stack.o: stack.c.o
+stack.o: stack.cpp.o
 .PHONY : stack.o
 
 # target to build an object file
-stack.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.c.o
-.PHONY : stack.c.o
+stack.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.cpp.o
+.PHONY : stack.cpp.o
 
-stack.i: stack.c.i
+stack.i: stack.cpp.i
 .PHONY : stack.i
 
 # target to preprocess a source file
-stack.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.c.i
-.PHONY : stack.c.i
+stack.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.cpp.i
+.PHONY : stack.cpp.i
 
-stack.s: stack.c.s
+stack.s: stack.cpp.s
 .PHONY : stack.s
 
 # target to generate assembly for a file
-stack.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.c.s
-.PHONY : stack.c.s
+stack.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/stack.cpp.s
+.PHONY : stack.cpp.s
 
-timer.o: timer.c.o
+timer.o: timer.cpp.o
 .PHONY : timer.o
 
 # target to build an object file
-timer.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.o
-.PHONY : timer.c.o
+timer.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.cpp.o
+.PHONY : timer.cpp.o
 
-timer.i: timer.c.i
+timer.i: timer.cpp.i
 .PHONY : timer.i
 
 # target to preprocess a source file
-timer.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.i
-.PHONY : timer.c.i
+timer.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.cpp.i
+.PHONY : timer.cpp.i
 
-timer.s: timer.c.s
+timer.s: timer.cpp.s
 .PHONY : timer.s
 
 # target to generate assembly for a file
-timer.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.s
-.PHONY : timer.c.s
+timer.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.cpp.s
+.PHONY : timer.cpp.s
 
-ui.o: ui.c.o
+ui.o: ui.cpp.o
 .PHONY : ui.o
 
 # target to build an object file
-ui.c.o:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.c.o
-.PHONY : ui.c.o
+ui.cpp.o:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.cpp.o
+.PHONY : ui.cpp.o
 
-ui.i: ui.c.i
+ui.i: ui.cpp.i
 .PHONY : ui.i
 
 # target to preprocess a source file
-ui.c.i:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.c.i
-.PHONY : ui.c.i
+ui.cpp.i:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.cpp.i
+.PHONY : ui.cpp.i
 
-ui.s: ui.c.s
+ui.s: ui.cpp.s
 .PHONY : ui.s
 
 # target to generate assembly for a file
-ui.c.s:
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.c.s
-.PHONY : ui.c.s
+ui.cpp.s:
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ui.cpp.s
+.PHONY : ui.cpp.s
 
 # Help Target
 help:
@@ -749,9 +749,9 @@ help:
 	@echo "... ppu.o"
 	@echo "... ppu.i"
 	@echo "... ppu.s"
-	@echo "... ppu_pipeline.o"
-	@echo "... ppu_pipeline.i"
-	@echo "... ppu_pipeline.s"
+	@echo "... ppu_pipline.o"
+	@echo "... ppu_pipline.i"
+	@echo "... ppu_pipline.s"
 	@echo "... ppu_sm.o"
 	@echo "... ppu_sm.i"
 	@echo "... ppu_sm.s"

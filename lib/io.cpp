@@ -3,10 +3,15 @@
 #include <timer.h>
 #include <lcd.h>
 #include <cpu.h>
+#include <gamepad.h>
 
 static char serial_data[2];
 
 uint8_t io_read(uint16_t address){
+    if (address == 0xFF00) {
+        return gamepad_get_output();
+    }
+
     if(address == 0xFF01) {
         return serial_data[0];
     }
@@ -33,6 +38,10 @@ uint8_t io_read(uint16_t address){
 }
 
 void io_write(uint16_t address, uint8_t value){
+    if (address == 0xFF00) {
+        gamepad_set_sel(value);
+        return;
+    }
 
     if(address == 0xFF01) {
         serial_data[0] = value;

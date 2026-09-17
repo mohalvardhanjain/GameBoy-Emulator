@@ -1,1 +1,1 @@
-/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/gbemu.dir/link.d CMakeFiles/gbemu.dir/main.c.o -o gbemu  ../lib/libemu.a /usr/lib/libSDL2main.a /usr/lib/libSDL2.so /usr/lib/libSDL2_ttf.so
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/gbemu.dir/link.d CMakeFiles/gbemu.dir/main.cpp.o -o gbemu  ../lib/libemu.a /usr/lib/libSDL2main.a /usr/lib/libSDL2.so /usr/lib/libSDL2_ttf.so

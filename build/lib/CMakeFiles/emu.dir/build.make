@@ -72,351 +72,351 @@ include lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/codegen:
 .PHONY : lib/CMakeFiles/emu.dir/codegen
 
-lib/CMakeFiles/emu.dir/bus.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/bus.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.c
-lib/CMakeFiles/emu.dir/bus.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/emu.dir/bus.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/bus.c.o -MF CMakeFiles/emu.dir/bus.c.o.d -o CMakeFiles/emu.dir/bus.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.c
+lib/CMakeFiles/emu.dir/bus.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/bus.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.cpp
+lib/CMakeFiles/emu.dir/bus.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/emu.dir/bus.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/bus.cpp.o -MF CMakeFiles/emu.dir/bus.cpp.o.d -o CMakeFiles/emu.dir/bus.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.cpp
 
-lib/CMakeFiles/emu.dir/bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/bus.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.c > CMakeFiles/emu.dir/bus.c.i
+lib/CMakeFiles/emu.dir/bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/bus.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.cpp > CMakeFiles/emu.dir/bus.cpp.i
 
-lib/CMakeFiles/emu.dir/bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/bus.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.c -o CMakeFiles/emu.dir/bus.c.s
+lib/CMakeFiles/emu.dir/bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/bus.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/bus.cpp -o CMakeFiles/emu.dir/bus.cpp.s
 
-lib/CMakeFiles/emu.dir/cart.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/cart.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.c
-lib/CMakeFiles/emu.dir/cart.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/emu.dir/cart.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cart.c.o -MF CMakeFiles/emu.dir/cart.c.o.d -o CMakeFiles/emu.dir/cart.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.c
+lib/CMakeFiles/emu.dir/cart.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cart.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.cpp
+lib/CMakeFiles/emu.dir/cart.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/emu.dir/cart.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cart.cpp.o -MF CMakeFiles/emu.dir/cart.cpp.o.d -o CMakeFiles/emu.dir/cart.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.cpp
 
-lib/CMakeFiles/emu.dir/cart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cart.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.c > CMakeFiles/emu.dir/cart.c.i
+lib/CMakeFiles/emu.dir/cart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/cart.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.cpp > CMakeFiles/emu.dir/cart.cpp.i
 
-lib/CMakeFiles/emu.dir/cart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cart.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.c -o CMakeFiles/emu.dir/cart.c.s
+lib/CMakeFiles/emu.dir/cart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/cart.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cart.cpp -o CMakeFiles/emu.dir/cart.cpp.s
 
-lib/CMakeFiles/emu.dir/cpu.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/cpu.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.c
-lib/CMakeFiles/emu.dir/cpu.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/emu.dir/cpu.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu.c.o -MF CMakeFiles/emu.dir/cpu.c.o.d -o CMakeFiles/emu.dir/cpu.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.c
+lib/CMakeFiles/emu.dir/cpu.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cpu.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.cpp
+lib/CMakeFiles/emu.dir/cpu.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/emu.dir/cpu.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu.cpp.o -MF CMakeFiles/emu.dir/cpu.cpp.o.d -o CMakeFiles/emu.dir/cpu.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.cpp
 
-lib/CMakeFiles/emu.dir/cpu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cpu.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.c > CMakeFiles/emu.dir/cpu.c.i
+lib/CMakeFiles/emu.dir/cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/cpu.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.cpp > CMakeFiles/emu.dir/cpu.cpp.i
 
-lib/CMakeFiles/emu.dir/cpu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.c -o CMakeFiles/emu.dir/cpu.c.s
+lib/CMakeFiles/emu.dir/cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/cpu.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu.cpp -o CMakeFiles/emu.dir/cpu.cpp.s
 
-lib/CMakeFiles/emu.dir/cpu_fetch.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/cpu_fetch.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.c
-lib/CMakeFiles/emu.dir/cpu_fetch.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/emu.dir/cpu_fetch.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_fetch.c.o -MF CMakeFiles/emu.dir/cpu_fetch.c.o.d -o CMakeFiles/emu.dir/cpu_fetch.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.c
+lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.cpp
+lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o -MF CMakeFiles/emu.dir/cpu_fetch.cpp.o.d -o CMakeFiles/emu.dir/cpu_fetch.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.cpp
 
-lib/CMakeFiles/emu.dir/cpu_fetch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cpu_fetch.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.c > CMakeFiles/emu.dir/cpu_fetch.c.i
+lib/CMakeFiles/emu.dir/cpu_fetch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/cpu_fetch.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.cpp > CMakeFiles/emu.dir/cpu_fetch.cpp.i
 
-lib/CMakeFiles/emu.dir/cpu_fetch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu_fetch.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.c -o CMakeFiles/emu.dir/cpu_fetch.c.s
+lib/CMakeFiles/emu.dir/cpu_fetch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/cpu_fetch.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_fetch.cpp -o CMakeFiles/emu.dir/cpu_fetch.cpp.s
 
-lib/CMakeFiles/emu.dir/cpu_proc.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/cpu_proc.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.c
-lib/CMakeFiles/emu.dir/cpu_proc.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/emu.dir/cpu_proc.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_proc.c.o -MF CMakeFiles/emu.dir/cpu_proc.c.o.d -o CMakeFiles/emu.dir/cpu_proc.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.c
+lib/CMakeFiles/emu.dir/cpu_proc.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cpu_proc.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.cpp
+lib/CMakeFiles/emu.dir/cpu_proc.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/emu.dir/cpu_proc.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_proc.cpp.o -MF CMakeFiles/emu.dir/cpu_proc.cpp.o.d -o CMakeFiles/emu.dir/cpu_proc.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.cpp
 
-lib/CMakeFiles/emu.dir/cpu_proc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cpu_proc.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.c > CMakeFiles/emu.dir/cpu_proc.c.i
+lib/CMakeFiles/emu.dir/cpu_proc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/cpu_proc.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.cpp > CMakeFiles/emu.dir/cpu_proc.cpp.i
 
-lib/CMakeFiles/emu.dir/cpu_proc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu_proc.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.c -o CMakeFiles/emu.dir/cpu_proc.c.s
+lib/CMakeFiles/emu.dir/cpu_proc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/cpu_proc.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_proc.cpp -o CMakeFiles/emu.dir/cpu_proc.cpp.s
 
-lib/CMakeFiles/emu.dir/cpu_util.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/cpu_util.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.c
-lib/CMakeFiles/emu.dir/cpu_util.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/emu.dir/cpu_util.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_util.c.o -MF CMakeFiles/emu.dir/cpu_util.c.o.d -o CMakeFiles/emu.dir/cpu_util.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.c
+lib/CMakeFiles/emu.dir/cpu_util.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cpu_util.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.cpp
+lib/CMakeFiles/emu.dir/cpu_util.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/emu.dir/cpu_util.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_util.cpp.o -MF CMakeFiles/emu.dir/cpu_util.cpp.o.d -o CMakeFiles/emu.dir/cpu_util.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.cpp
 
-lib/CMakeFiles/emu.dir/cpu_util.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cpu_util.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.c > CMakeFiles/emu.dir/cpu_util.c.i
+lib/CMakeFiles/emu.dir/cpu_util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/cpu_util.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.cpp > CMakeFiles/emu.dir/cpu_util.cpp.i
 
-lib/CMakeFiles/emu.dir/cpu_util.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu_util.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.c -o CMakeFiles/emu.dir/cpu_util.c.s
+lib/CMakeFiles/emu.dir/cpu_util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/cpu_util.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/cpu_util.cpp -o CMakeFiles/emu.dir/cpu_util.cpp.s
 
-lib/CMakeFiles/emu.dir/dbg.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/dbg.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.c
-lib/CMakeFiles/emu.dir/dbg.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/emu.dir/dbg.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/dbg.c.o -MF CMakeFiles/emu.dir/dbg.c.o.d -o CMakeFiles/emu.dir/dbg.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.c
+lib/CMakeFiles/emu.dir/dbg.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/dbg.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.cpp
+lib/CMakeFiles/emu.dir/dbg.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/emu.dir/dbg.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/dbg.cpp.o -MF CMakeFiles/emu.dir/dbg.cpp.o.d -o CMakeFiles/emu.dir/dbg.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.cpp
 
-lib/CMakeFiles/emu.dir/dbg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/dbg.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.c > CMakeFiles/emu.dir/dbg.c.i
+lib/CMakeFiles/emu.dir/dbg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/dbg.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.cpp > CMakeFiles/emu.dir/dbg.cpp.i
 
-lib/CMakeFiles/emu.dir/dbg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/dbg.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.c -o CMakeFiles/emu.dir/dbg.c.s
+lib/CMakeFiles/emu.dir/dbg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/dbg.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dbg.cpp -o CMakeFiles/emu.dir/dbg.cpp.s
 
-lib/CMakeFiles/emu.dir/dma.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/dma.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.c
-lib/CMakeFiles/emu.dir/dma.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/emu.dir/dma.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/dma.c.o -MF CMakeFiles/emu.dir/dma.c.o.d -o CMakeFiles/emu.dir/dma.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.c
+lib/CMakeFiles/emu.dir/dma.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/dma.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.cpp
+lib/CMakeFiles/emu.dir/dma.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CMakeFiles/emu.dir/dma.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/dma.cpp.o -MF CMakeFiles/emu.dir/dma.cpp.o.d -o CMakeFiles/emu.dir/dma.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.cpp
 
-lib/CMakeFiles/emu.dir/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/dma.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.c > CMakeFiles/emu.dir/dma.c.i
+lib/CMakeFiles/emu.dir/dma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/dma.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.cpp > CMakeFiles/emu.dir/dma.cpp.i
 
-lib/CMakeFiles/emu.dir/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/dma.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.c -o CMakeFiles/emu.dir/dma.c.s
+lib/CMakeFiles/emu.dir/dma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/dma.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/dma.cpp -o CMakeFiles/emu.dir/dma.cpp.s
 
-lib/CMakeFiles/emu.dir/emu.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/emu.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.c
-lib/CMakeFiles/emu.dir/emu.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/emu.dir/emu.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/emu.c.o -MF CMakeFiles/emu.dir/emu.c.o.d -o CMakeFiles/emu.dir/emu.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.c
+lib/CMakeFiles/emu.dir/emu.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/emu.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.cpp
+lib/CMakeFiles/emu.dir/emu.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/emu.dir/emu.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/emu.cpp.o -MF CMakeFiles/emu.dir/emu.cpp.o.d -o CMakeFiles/emu.dir/emu.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.cpp
 
-lib/CMakeFiles/emu.dir/emu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/emu.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.c > CMakeFiles/emu.dir/emu.c.i
+lib/CMakeFiles/emu.dir/emu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/emu.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.cpp > CMakeFiles/emu.dir/emu.cpp.i
 
-lib/CMakeFiles/emu.dir/emu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/emu.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.c -o CMakeFiles/emu.dir/emu.c.s
+lib/CMakeFiles/emu.dir/emu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/emu.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/emu.cpp -o CMakeFiles/emu.dir/emu.cpp.s
 
-lib/CMakeFiles/emu.dir/gamepad.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/gamepad.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.c
-lib/CMakeFiles/emu.dir/gamepad.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CMakeFiles/emu.dir/gamepad.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/gamepad.c.o -MF CMakeFiles/emu.dir/gamepad.c.o.d -o CMakeFiles/emu.dir/gamepad.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.c
+lib/CMakeFiles/emu.dir/gamepad.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/gamepad.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.cpp
+lib/CMakeFiles/emu.dir/gamepad.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/emu.dir/gamepad.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/gamepad.cpp.o -MF CMakeFiles/emu.dir/gamepad.cpp.o.d -o CMakeFiles/emu.dir/gamepad.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.cpp
 
-lib/CMakeFiles/emu.dir/gamepad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/gamepad.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.c > CMakeFiles/emu.dir/gamepad.c.i
+lib/CMakeFiles/emu.dir/gamepad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/gamepad.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.cpp > CMakeFiles/emu.dir/gamepad.cpp.i
 
-lib/CMakeFiles/emu.dir/gamepad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/gamepad.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.c -o CMakeFiles/emu.dir/gamepad.c.s
+lib/CMakeFiles/emu.dir/gamepad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/gamepad.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/gamepad.cpp -o CMakeFiles/emu.dir/gamepad.cpp.s
 
-lib/CMakeFiles/emu.dir/instructions.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/instructions.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.c
-lib/CMakeFiles/emu.dir/instructions.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CMakeFiles/emu.dir/instructions.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/instructions.c.o -MF CMakeFiles/emu.dir/instructions.c.o.d -o CMakeFiles/emu.dir/instructions.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.c
+lib/CMakeFiles/emu.dir/instructions.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/instructions.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.cpp
+lib/CMakeFiles/emu.dir/instructions.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/emu.dir/instructions.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/instructions.cpp.o -MF CMakeFiles/emu.dir/instructions.cpp.o.d -o CMakeFiles/emu.dir/instructions.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.cpp
 
-lib/CMakeFiles/emu.dir/instructions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/instructions.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.c > CMakeFiles/emu.dir/instructions.c.i
+lib/CMakeFiles/emu.dir/instructions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/instructions.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.cpp > CMakeFiles/emu.dir/instructions.cpp.i
 
-lib/CMakeFiles/emu.dir/instructions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/instructions.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.c -o CMakeFiles/emu.dir/instructions.c.s
+lib/CMakeFiles/emu.dir/instructions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/instructions.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/instructions.cpp -o CMakeFiles/emu.dir/instructions.cpp.s
 
-lib/CMakeFiles/emu.dir/interrupts.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/interrupts.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.c
-lib/CMakeFiles/emu.dir/interrupts.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CMakeFiles/emu.dir/interrupts.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/interrupts.c.o -MF CMakeFiles/emu.dir/interrupts.c.o.d -o CMakeFiles/emu.dir/interrupts.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.c
+lib/CMakeFiles/emu.dir/interrupts.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/interrupts.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.cpp
+lib/CMakeFiles/emu.dir/interrupts.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/emu.dir/interrupts.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/interrupts.cpp.o -MF CMakeFiles/emu.dir/interrupts.cpp.o.d -o CMakeFiles/emu.dir/interrupts.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.cpp
 
-lib/CMakeFiles/emu.dir/interrupts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/interrupts.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.c > CMakeFiles/emu.dir/interrupts.c.i
+lib/CMakeFiles/emu.dir/interrupts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/interrupts.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.cpp > CMakeFiles/emu.dir/interrupts.cpp.i
 
-lib/CMakeFiles/emu.dir/interrupts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/interrupts.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.c -o CMakeFiles/emu.dir/interrupts.c.s
+lib/CMakeFiles/emu.dir/interrupts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/interrupts.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/interrupts.cpp -o CMakeFiles/emu.dir/interrupts.cpp.s
 
-lib/CMakeFiles/emu.dir/io.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/io.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.c
-lib/CMakeFiles/emu.dir/io.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CMakeFiles/emu.dir/io.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/io.c.o -MF CMakeFiles/emu.dir/io.c.o.d -o CMakeFiles/emu.dir/io.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.c
+lib/CMakeFiles/emu.dir/io.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/io.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.cpp
+lib/CMakeFiles/emu.dir/io.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/emu.dir/io.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/io.cpp.o -MF CMakeFiles/emu.dir/io.cpp.o.d -o CMakeFiles/emu.dir/io.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.cpp
 
-lib/CMakeFiles/emu.dir/io.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/io.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.c > CMakeFiles/emu.dir/io.c.i
+lib/CMakeFiles/emu.dir/io.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/io.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.cpp > CMakeFiles/emu.dir/io.cpp.i
 
-lib/CMakeFiles/emu.dir/io.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/io.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.c -o CMakeFiles/emu.dir/io.c.s
+lib/CMakeFiles/emu.dir/io.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/io.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/io.cpp -o CMakeFiles/emu.dir/io.cpp.s
 
-lib/CMakeFiles/emu.dir/lcd.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/lcd.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.c
-lib/CMakeFiles/emu.dir/lcd.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CMakeFiles/emu.dir/lcd.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/lcd.c.o -MF CMakeFiles/emu.dir/lcd.c.o.d -o CMakeFiles/emu.dir/lcd.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.c
+lib/CMakeFiles/emu.dir/lcd.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/lcd.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.cpp
+lib/CMakeFiles/emu.dir/lcd.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/CMakeFiles/emu.dir/lcd.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/lcd.cpp.o -MF CMakeFiles/emu.dir/lcd.cpp.o.d -o CMakeFiles/emu.dir/lcd.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.cpp
 
-lib/CMakeFiles/emu.dir/lcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/lcd.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.c > CMakeFiles/emu.dir/lcd.c.i
+lib/CMakeFiles/emu.dir/lcd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/lcd.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.cpp > CMakeFiles/emu.dir/lcd.cpp.i
 
-lib/CMakeFiles/emu.dir/lcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/lcd.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.c -o CMakeFiles/emu.dir/lcd.c.s
+lib/CMakeFiles/emu.dir/lcd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/lcd.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/lcd.cpp -o CMakeFiles/emu.dir/lcd.cpp.s
 
-lib/CMakeFiles/emu.dir/ppu.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/ppu.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.c
-lib/CMakeFiles/emu.dir/ppu.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CMakeFiles/emu.dir/ppu.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu.c.o -MF CMakeFiles/emu.dir/ppu.c.o.d -o CMakeFiles/emu.dir/ppu.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.c
+lib/CMakeFiles/emu.dir/ppu.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/ppu.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.cpp
+lib/CMakeFiles/emu.dir/ppu.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/CMakeFiles/emu.dir/ppu.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu.cpp.o -MF CMakeFiles/emu.dir/ppu.cpp.o.d -o CMakeFiles/emu.dir/ppu.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.cpp
 
-lib/CMakeFiles/emu.dir/ppu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/ppu.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.c > CMakeFiles/emu.dir/ppu.c.i
+lib/CMakeFiles/emu.dir/ppu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/ppu.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.cpp > CMakeFiles/emu.dir/ppu.cpp.i
 
-lib/CMakeFiles/emu.dir/ppu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/ppu.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.c -o CMakeFiles/emu.dir/ppu.c.s
+lib/CMakeFiles/emu.dir/ppu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/ppu.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu.cpp -o CMakeFiles/emu.dir/ppu.cpp.s
 
-lib/CMakeFiles/emu.dir/ppu_pipeline.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/ppu_pipeline.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipeline.c
-lib/CMakeFiles/emu.dir/ppu_pipeline.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CMakeFiles/emu.dir/ppu_pipeline.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu_pipeline.c.o -MF CMakeFiles/emu.dir/ppu_pipeline.c.o.d -o CMakeFiles/emu.dir/ppu_pipeline.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipeline.c
+lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipline.cpp
+lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o -MF CMakeFiles/emu.dir/ppu_pipline.cpp.o.d -o CMakeFiles/emu.dir/ppu_pipline.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipline.cpp
 
-lib/CMakeFiles/emu.dir/ppu_pipeline.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/ppu_pipeline.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipeline.c > CMakeFiles/emu.dir/ppu_pipeline.c.i
+lib/CMakeFiles/emu.dir/ppu_pipline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/ppu_pipline.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipline.cpp > CMakeFiles/emu.dir/ppu_pipline.cpp.i
 
-lib/CMakeFiles/emu.dir/ppu_pipeline.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/ppu_pipeline.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipeline.c -o CMakeFiles/emu.dir/ppu_pipeline.c.s
+lib/CMakeFiles/emu.dir/ppu_pipline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/ppu_pipline.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_pipline.cpp -o CMakeFiles/emu.dir/ppu_pipline.cpp.s
 
-lib/CMakeFiles/emu.dir/ppu_sm.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/ppu_sm.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.c
-lib/CMakeFiles/emu.dir/ppu_sm.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CMakeFiles/emu.dir/ppu_sm.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu_sm.c.o -MF CMakeFiles/emu.dir/ppu_sm.c.o.d -o CMakeFiles/emu.dir/ppu_sm.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.c
+lib/CMakeFiles/emu.dir/ppu_sm.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/ppu_sm.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.cpp
+lib/CMakeFiles/emu.dir/ppu_sm.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/CMakeFiles/emu.dir/ppu_sm.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu_sm.cpp.o -MF CMakeFiles/emu.dir/ppu_sm.cpp.o.d -o CMakeFiles/emu.dir/ppu_sm.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.cpp
 
-lib/CMakeFiles/emu.dir/ppu_sm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/ppu_sm.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.c > CMakeFiles/emu.dir/ppu_sm.c.i
+lib/CMakeFiles/emu.dir/ppu_sm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/ppu_sm.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.cpp > CMakeFiles/emu.dir/ppu_sm.cpp.i
 
-lib/CMakeFiles/emu.dir/ppu_sm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/ppu_sm.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.c -o CMakeFiles/emu.dir/ppu_sm.c.s
+lib/CMakeFiles/emu.dir/ppu_sm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/ppu_sm.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ppu_sm.cpp -o CMakeFiles/emu.dir/ppu_sm.cpp.s
 
-lib/CMakeFiles/emu.dir/ram.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/ram.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.c
-lib/CMakeFiles/emu.dir/ram.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CMakeFiles/emu.dir/ram.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ram.c.o -MF CMakeFiles/emu.dir/ram.c.o.d -o CMakeFiles/emu.dir/ram.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.c
+lib/CMakeFiles/emu.dir/ram.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/ram.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.cpp
+lib/CMakeFiles/emu.dir/ram.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/CMakeFiles/emu.dir/ram.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ram.cpp.o -MF CMakeFiles/emu.dir/ram.cpp.o.d -o CMakeFiles/emu.dir/ram.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.cpp
 
-lib/CMakeFiles/emu.dir/ram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/ram.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.c > CMakeFiles/emu.dir/ram.c.i
+lib/CMakeFiles/emu.dir/ram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/ram.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.cpp > CMakeFiles/emu.dir/ram.cpp.i
 
-lib/CMakeFiles/emu.dir/ram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/ram.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.c -o CMakeFiles/emu.dir/ram.c.s
+lib/CMakeFiles/emu.dir/ram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/ram.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ram.cpp -o CMakeFiles/emu.dir/ram.cpp.s
 
-lib/CMakeFiles/emu.dir/stack.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/stack.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.c
-lib/CMakeFiles/emu.dir/stack.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CMakeFiles/emu.dir/stack.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/stack.c.o -MF CMakeFiles/emu.dir/stack.c.o.d -o CMakeFiles/emu.dir/stack.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.c
+lib/CMakeFiles/emu.dir/stack.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/stack.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.cpp
+lib/CMakeFiles/emu.dir/stack.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/CMakeFiles/emu.dir/stack.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/stack.cpp.o -MF CMakeFiles/emu.dir/stack.cpp.o.d -o CMakeFiles/emu.dir/stack.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.cpp
 
-lib/CMakeFiles/emu.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/stack.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.c > CMakeFiles/emu.dir/stack.c.i
+lib/CMakeFiles/emu.dir/stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/stack.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.cpp > CMakeFiles/emu.dir/stack.cpp.i
 
-lib/CMakeFiles/emu.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/stack.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.c -o CMakeFiles/emu.dir/stack.c.s
+lib/CMakeFiles/emu.dir/stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/stack.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/stack.cpp -o CMakeFiles/emu.dir/stack.cpp.s
 
-lib/CMakeFiles/emu.dir/timer.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/timer.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.c
-lib/CMakeFiles/emu.dir/timer.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CMakeFiles/emu.dir/timer.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/timer.c.o -MF CMakeFiles/emu.dir/timer.c.o.d -o CMakeFiles/emu.dir/timer.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.c
+lib/CMakeFiles/emu.dir/timer.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/timer.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.cpp
+lib/CMakeFiles/emu.dir/timer.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/CMakeFiles/emu.dir/timer.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/timer.cpp.o -MF CMakeFiles/emu.dir/timer.cpp.o.d -o CMakeFiles/emu.dir/timer.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.cpp
 
-lib/CMakeFiles/emu.dir/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/timer.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.c > CMakeFiles/emu.dir/timer.c.i
+lib/CMakeFiles/emu.dir/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/timer.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.cpp > CMakeFiles/emu.dir/timer.cpp.i
 
-lib/CMakeFiles/emu.dir/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/timer.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.c -o CMakeFiles/emu.dir/timer.c.s
+lib/CMakeFiles/emu.dir/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/timer.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/timer.cpp -o CMakeFiles/emu.dir/timer.cpp.s
 
-lib/CMakeFiles/emu.dir/ui.c.o: lib/CMakeFiles/emu.dir/flags.make
-lib/CMakeFiles/emu.dir/ui.c.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.c
-lib/CMakeFiles/emu.dir/ui.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/emu.dir/ui.c.o"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ui.c.o -MF CMakeFiles/emu.dir/ui.c.o.d -o CMakeFiles/emu.dir/ui.c.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.c
+lib/CMakeFiles/emu.dir/ui.cpp.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/ui.cpp.o: /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.cpp
+lib/CMakeFiles/emu.dir/ui.cpp.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/CMakeFiles/emu.dir/ui.cpp.o"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ui.cpp.o -MF CMakeFiles/emu.dir/ui.cpp.o.d -o CMakeFiles/emu.dir/ui.cpp.o -c /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.cpp
 
-lib/CMakeFiles/emu.dir/ui.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/ui.c.i"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.c > CMakeFiles/emu.dir/ui.c.i
+lib/CMakeFiles/emu.dir/ui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emu.dir/ui.cpp.i"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.cpp > CMakeFiles/emu.dir/ui.cpp.i
 
-lib/CMakeFiles/emu.dir/ui.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/ui.c.s"
-	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.c -o CMakeFiles/emu.dir/ui.c.s
+lib/CMakeFiles/emu.dir/ui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emu.dir/ui.cpp.s"
+	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/lib/ui.cpp -o CMakeFiles/emu.dir/ui.cpp.s
 
 # Object files for target emu
 emu_OBJECTS = \
-"CMakeFiles/emu.dir/bus.c.o" \
-"CMakeFiles/emu.dir/cart.c.o" \
-"CMakeFiles/emu.dir/cpu.c.o" \
-"CMakeFiles/emu.dir/cpu_fetch.c.o" \
-"CMakeFiles/emu.dir/cpu_proc.c.o" \
-"CMakeFiles/emu.dir/cpu_util.c.o" \
-"CMakeFiles/emu.dir/dbg.c.o" \
-"CMakeFiles/emu.dir/dma.c.o" \
-"CMakeFiles/emu.dir/emu.c.o" \
-"CMakeFiles/emu.dir/gamepad.c.o" \
-"CMakeFiles/emu.dir/instructions.c.o" \
-"CMakeFiles/emu.dir/interrupts.c.o" \
-"CMakeFiles/emu.dir/io.c.o" \
-"CMakeFiles/emu.dir/lcd.c.o" \
-"CMakeFiles/emu.dir/ppu.c.o" \
-"CMakeFiles/emu.dir/ppu_pipeline.c.o" \
-"CMakeFiles/emu.dir/ppu_sm.c.o" \
-"CMakeFiles/emu.dir/ram.c.o" \
-"CMakeFiles/emu.dir/stack.c.o" \
-"CMakeFiles/emu.dir/timer.c.o" \
-"CMakeFiles/emu.dir/ui.c.o"
+"CMakeFiles/emu.dir/bus.cpp.o" \
+"CMakeFiles/emu.dir/cart.cpp.o" \
+"CMakeFiles/emu.dir/cpu.cpp.o" \
+"CMakeFiles/emu.dir/cpu_fetch.cpp.o" \
+"CMakeFiles/emu.dir/cpu_proc.cpp.o" \
+"CMakeFiles/emu.dir/cpu_util.cpp.o" \
+"CMakeFiles/emu.dir/dbg.cpp.o" \
+"CMakeFiles/emu.dir/dma.cpp.o" \
+"CMakeFiles/emu.dir/emu.cpp.o" \
+"CMakeFiles/emu.dir/gamepad.cpp.o" \
+"CMakeFiles/emu.dir/instructions.cpp.o" \
+"CMakeFiles/emu.dir/interrupts.cpp.o" \
+"CMakeFiles/emu.dir/io.cpp.o" \
+"CMakeFiles/emu.dir/lcd.cpp.o" \
+"CMakeFiles/emu.dir/ppu.cpp.o" \
+"CMakeFiles/emu.dir/ppu_pipline.cpp.o" \
+"CMakeFiles/emu.dir/ppu_sm.cpp.o" \
+"CMakeFiles/emu.dir/ram.cpp.o" \
+"CMakeFiles/emu.dir/stack.cpp.o" \
+"CMakeFiles/emu.dir/timer.cpp.o" \
+"CMakeFiles/emu.dir/ui.cpp.o"
 
 # External object files for target emu
 emu_EXTERNAL_OBJECTS =
 
-lib/libemu.a: lib/CMakeFiles/emu.dir/bus.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/cart.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/cpu.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_fetch.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_proc.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_util.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/dbg.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/dma.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/emu.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/gamepad.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/instructions.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/interrupts.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/io.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/lcd.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/ppu.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/ppu_pipeline.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/ppu_sm.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/ram.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/stack.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/timer.c.o
-lib/libemu.a: lib/CMakeFiles/emu.dir/ui.c.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/bus.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cart.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cpu.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_fetch.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_proc.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_util.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/dbg.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/dma.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/emu.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/gamepad.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/instructions.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/interrupts.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/io.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/lcd.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/ppu.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/ppu_pipline.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/ppu_sm.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/ram.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/stack.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/timer.cpp.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/ui.cpp.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/build.make
 lib/libemu.a: lib/CMakeFiles/emu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libemu.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libemu.a"
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/emu.dir/cmake_clean_target.cmake
 	cd /home/mohalVardhanJemimah/Documents/projects/Game-Boy-Emulator/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/emu.dir/link.txt --verbose=$(VERBOSE)
 
